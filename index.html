@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+    <title>Rock 'n' Sticker</title>
+</head>
+<body>
+
+    <!-- Image -->
+
+    <section>
+        <div class="logo">
+            <a href="#" id="Image">
+                <img class="photo" src="assets/imgs/beavies-and-butthead-rocker.gif" alt="elden-ring">
+            </a>
+        </div>
+    </section>
+
+    <!-- Stickers -->
+    
+    <main>
+
+        <div>
+            <h1>Rock 'n' Sticker</h1>
+        </div>
+        
+        <section class="cards">
+            
+            <article class="card">
+                <img class="sticker" src="assets/imgs/iron-maiden.png" alt="iron-maiden">
+                <h3>Iron Maiden</h3>
+                <input 
+                type="number" 
+                placeholder="Ingrese cantidad" 
+                id="band1">
+            </article>
+
+            <article class="card">
+                <img class="sticker" src="assets/imgs/linkin-park.png" alt="linkin-park">
+                <h3>Linkin Park</h3>
+                <input 
+                type="number" 
+                placeholder="Ingrese cantidad" 
+                id="band2">
+            </article>
+
+            <article class="card">
+                <img class="sticker" src="assets/imgs/korn.png" alt="korn">
+                <h3>Korn</h3>
+                <input 
+                type="number" 
+                placeholder="Ingrese cantidad" 
+                id="band3">
+            </article>
+
+            <article class="card">
+                <img class="sticker" src="assets/imgs/metallica.png" alt="metallica">
+                <h3>Metallica</h3>
+                <input 
+                type="number" 
+                placeholder="Ingrese cantidad" 
+                id="band4"> 
+            </article>
+        
+        </section>
+        
+        <div class="cards">
+            <button id="getResult">Calcula tus stickers</button>
+            <h3 id="result"></h3>
+        </div>
+
+    </main>
+
+    <!-- Password -->
+
+    <section class="pass ">
+        
+        <div>
+            <h2>
+                ¿Deseas más stickers?
+            </h2>
+            <h3>
+                Ingresa tu password
+            </h3>
+        </div>
+
+        <article class="numbers">
+
+            <select name="password" id="passNumber1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+            <select name="password" id="passNumber2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <select name="password" id="passNumber3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            
+        </article>
+
+       
+        <div class="cards">
+            <button id="getPass">Ingresar</button>
+        </div>
+        <div>
+            <h3 id="passResult"></h3>
+        </div>
+     
+            
+    </section>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
